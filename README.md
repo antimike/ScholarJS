@@ -13,6 +13,14 @@ ScholarJS is a JavaScript module that implements a querier and parser for Google
 * Command-line tool prints entries in CSV format, simple plain text, or in the citation export format.
 
 ---
+## Development
+
+```sh
+cd $PROJECT_ROOT
+npm link
+cd $OTHER_PROJECT_ROOT
+npm link ScholarJS
+```
 ## Notes
 
 I will always strive to add features that increase the power of this API, but I will never add features that intentionally try to work around the query limits imposed by Google Scholar. Please don't ask me to add such features.
@@ -30,3 +38,4 @@ Try `node main.js --help` for all available options. Note, the command line argu
 ## Member
 
 * [Kevin Cyu](https://kevinbird61.github.io/Intro/)
+
